@@ -6,6 +6,8 @@
 
 *PPT Link* : [Click Here](https://docs.google.com/presentation/d/1DgbHzziqg_F074ixru4xupcuE2d0Z__Z/edit?usp=sharing&ouid=114321354679631077001&rtpof=true&sd=true)
 
+*PDF Link* : [Click Here](https://drive.google.com/file/d/1IFcETtD_Fa9quyfHysDH42FP6G5sRalp/view?usp=sharing)
+
 ## Project Overview
 
 This project focuses on optimizing key call center metrics, specifically Average Handle Time (AHT) and Average Speed to Answer (AST), to help United Airlines improve its customer service. The goal is to analyze the call center data, identify inefficiencies, and provide actionable strategies to enhance operational efficiency and customer satisfaction.
