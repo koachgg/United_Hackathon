@@ -1,8 +1,10 @@
+# Beyond the Beep: Enhancing Customer Experience Through Smarter Call Center Operations
 
-# United Airlines Call Center Optimization
+*Dataset Link*: [Google Drive](https://drive.google.com/drive/folders/16iBX-rtiBChaB-x3P5_YeZE-v3bRfTFi?usp=drive_link)
 
-*Dataset Link* : https://drive.google.com/drive/folders/16iBX-rtiBChaB-x3P5_YeZE-v3bRfTFi?usp=drive_link 
+*PPT Link*: [Click Here](https://docs.google.com/presentation/d/1DgbHzziqg_F074ixru4xupcuE2d0Z__Z/edit?usp=sharing&ouid=114321354679631077001&rtpof=true&sd=true)
 
+*PDF Link*: [Click Here](https://drive.google.com/file/d/1sA6AbNzj3BUxHa_q6lePm8BixXkbA0KT/view?usp=sharing)
 
 ## Project Overview
 
@@ -32,6 +34,31 @@ United Airlines seeks to reduce AHT and AST to improve call center operations, w
 - **Sentiment Analysis**: Analyzes agent and customer sentiment during calls.
 - **Call Clustering**: Uses TF-IDF and K-Means clustering to group call transcripts and identify recurring issues.
 - **IVR System Optimization**: Proposes improvements to the IVR system to reduce agent escalations for common issues.
+
+## Approach
+
+To achieve the project objectives, I employed the following approach:
+
+1. **Data Collection and Preprocessing**: 
+   - Gathered datasets relevant to call center operations and merged them into a unified DataFrame for comprehensive analysis. 
+   - Cleaned the data to handle missing values and ensure its accuracy.
+
+2. **Metric Calculation**: 
+   - Calculated AHT and AST, breaking them down by call reasons to understand the factors impacting efficiency.
+
+3. **Exploratory Data Analysis (EDA)**: 
+   - Conducted correlation analysis and visualizations to identify relationships between variables such as sentiment, waiting times, and handling times.
+   - Analyzed trends in call reasons and their associated AHT to uncover inefficiencies.
+
+4. **Natural Language Processing (NLP)**: 
+   - Utilized NLTK for preprocessing call transcripts, including tokenization and removing stopwords.
+   - Employed TF-IDF vectorization to convert textual data into numerical features for further analysis.
+
+5. **Clustering Analysis**: 
+   - Applied K-Means clustering to identify recurring themes in call transcripts, which highlighted areas where IVR improvements could be made.
+
+6. **Predictive Modeling**: 
+   - Developed a logistic regression model to predict primary call reasons based on historical call data, enabling proactive resource allocation and improved customer service.
 
 ## How to Run the Project
 
@@ -98,7 +125,3 @@ To predict the primary call reason from the `test.csv` file, follow these steps:
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This `README.md` provides a clear structure and instructions for your project. Feel free to modify it further based on your specific needs!
